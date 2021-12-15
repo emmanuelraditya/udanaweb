@@ -1,0 +1,14 @@
+
+.product-container {
+    color: #242424;;
+    justify-content: center;
+}
+
+.product-container ul {
+    list-style: none;
+}
+
+.product-container button {
+  width: 200px;
+  width: 300px;
+}
