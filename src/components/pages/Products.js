@@ -37,6 +37,7 @@ export default function Products() {
               <th>#</th>
               <th>Name</th>
               <th>City</th>
+              <th>State</th>
               <th>Postal Code</th>
               <th>Country</th>
             </tr>
@@ -61,6 +62,13 @@ export default function Products() {
                 <ul>
                   {data.map((item) => (
                     <li>{item.city}</li>
+                  ))}
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  {data.map((item) => (
+                    <li>{item.state}</li>
                   ))}
                 </ul>
               </td>
